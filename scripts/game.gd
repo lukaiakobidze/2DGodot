@@ -40,5 +40,5 @@ func _process(delta: float):
 				$TileMap.erase_cell(tile_pos)
 				current_time = 0.0
 				is_breaking = false
-	print(str(tile_pos) + " | " + str(tile_breaking_pos) + str(is_breaking) + str(range))
+	#print(str(tile_pos) + " | " + str(tile_breaking_pos) + str(is_breaking) + str(range))
 	
