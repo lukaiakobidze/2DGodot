@@ -1,0 +1,15 @@
+[gd_scene load_steps=6 format=3 uid="uid://sf3vt683tfit"]
+
+[ext_resource type="Script" path="res://scripts/cursor.gd" id="1_d6lmg"]
+[ext_resource type="Texture2D" uid="uid://dt2njrqmr46bj" path="res://assets/textures/cursor.png" id="2_nlk7k"]
+[ext_resource type="Texture2D" uid="uid://1xy1e56l6kd8" path="res://assets/textures/breaking_1.png" id="3_1w4yx"]
+[ext_resource type="Texture2D" uid="uid://dips0mhjf0lbm" path="res://assets/textures/breaking_0.png" id="3_jq8ug"]
+[ext_resource type="Texture2D" uid="uid://cn8a2a5hbiouo" path="res://assets/textures/breaking_2.png" id="4_0t7it"]
+
+[node name="Cursor" type="Sprite2D"]
+texture = ExtResource("2_nlk7k")
+script = ExtResource("1_d6lmg")
+breaking_texture_0 = ExtResource("3_jq8ug")
+breaking_texture_1 = ExtResource("3_1w4yx")
+breaking_texture_2 = ExtResource("4_0t7it")
+cursor_texture = ExtResource("2_nlk7k")

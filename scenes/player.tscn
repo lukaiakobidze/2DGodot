@@ -3,11 +3,11 @@
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_4xg56"]
 [ext_resource type="Texture2D" uid="uid://gjp4bqk0jt8l" path="res://assets/player_idle_spritesheet.png" id="2_fsbk7"]
 [ext_resource type="Texture2D" uid="uid://cdwpshxpiro76" path="res://assets/player_run-Sheet.png" id="3_qya7p"]
-[ext_resource type="Script" path="res://scenes/character_state_machine.gd" id="4_n0qlp"]
-[ext_resource type="Script" path="res://scenes/GroundState.gd" id="5_gpg8p"]
-[ext_resource type="Script" path="res://scenes/AirState.gd" id="6_kay1l"]
-[ext_resource type="Script" path="res://scenes/LandingState.gd" id="7_lgb5e"]
-[ext_resource type="Script" path="res://scenes/state_debul_label.gd" id="8_yi428"]
+[ext_resource type="Script" path="res://scripts/character_state_machine.gd" id="4_n0qlp"]
+[ext_resource type="Script" path="res://scripts/GroundState.gd" id="5_gpg8p"]
+[ext_resource type="Script" path="res://scripts/AirState.gd" id="6_kay1l"]
+[ext_resource type="Script" path="res://scripts/LandingState.gd" id="7_lgb5e"]
+[ext_resource type="Script" path="res://state_debul_label.gd" id="8_yi428"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_al3ui"]
 radius = 11.0
